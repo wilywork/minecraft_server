@@ -1,0 +1,98 @@
+features:
+  teleport: true
+  warps: true
+  spawn: true
+  randomTP: true
+  homes: true
+timers:
+  commandCooldown: 5
+  teleportTimer: 5
+  teleportTimers:
+    tpa: default
+    tpahere: default
+    tpr: default
+    warp: default
+    spawn: default
+    home: default
+    back: default
+  requestLifetime: 60
+  cancel-on-rotate: false
+  cancel-on-movement: true
+booleans:
+  useVault: false
+  EXPPayment: false
+payments:
+  vault:
+    teleportPrice: 100.0
+    tpa:
+      price: default
+      enabled: default
+    tpahere:
+      price: default
+      enabled: default
+    tpr:
+      price: default
+      enabled: default
+    warp:
+      price: default
+      enabled: default
+    spawn:
+      price: default
+      enabled: default
+    home:
+      price: default
+      enabled: default
+    back:
+      price: default
+      enabled: default
+  exp:
+    teleportPrice: 2
+    tpa:
+      price: default
+      enabled: default
+    tpahere:
+      price: default
+      enabled: default
+    tpr:
+      price: default
+      enabled: default
+    warp:
+      price: default
+      enabled: default
+    spawn:
+      price: default
+      enabled: default
+    home:
+      price: default
+      enabled: default
+    back:
+      price: default
+      enabled: default
+tpr:
+  maximum-x: 10000
+  minimum-x: -10000
+  maximum-z: 10000
+  minimum-z: -10000
+  useWorldBorder: true
+  avoidBlocks:
+  - WATER
+  - LAVA
+  - STATIONARY_WATER
+  - STATIONARY_LAVA
+  blacklist-worlds: []
+distance-limiter:
+  enabled: false
+  distance-limit: 1000
+  monitor-all-teleports: false
+  per-command:
+    tpa: true
+    tpahere: true
+    tpr: false
+    warp: true
+    spawn: true
+    back: true
+back:
+  teleport-causes:
+  - COMMAND
+  - PLUGIN
+  - SPECTATE
