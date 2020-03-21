@@ -59,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_sand": "2020-03-18 20:00:56 +0000"
@@ -86,6 +92,12 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2020-03-18 20:00:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
     },
     "done": true
   },
@@ -152,6 +164,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2020-03-21 00:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
     },
     "done": true
   },
@@ -365,6 +383,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2020-03-21 17:54:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-03-20 22:07:44 +0000"
@@ -398,6 +422,12 @@
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2020-03-20 21:06:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2020-03-21 15:26:34 +0000"
     },
     "done": true
   },
@@ -512,6 +542,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2020-03-20 20:23:20 +0000",
+      "minecraft:blaze": "2020-03-21 18:18:10 +0000",
       "minecraft:skeleton": "2020-03-16 00:44:33 +0000",
       "minecraft:spider": "2020-03-18 20:56:40 +0000",
       "minecraft:creeper": "2020-03-20 20:34:50 +0000",
@@ -680,6 +711,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2020-03-21 18:20:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2020-03-18 20:48:33 +0000"
@@ -752,6 +789,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2020-03-21 18:13:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2020-03-21 15:26:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2020-03-20 21:33:34 +0000"
@@ -809,6 +858,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2020-03-18 20:48:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_log": "2020-03-21 18:13:28 +0000"
     },
     "done": true
   },
@@ -887,6 +942,12 @@
   "minecraft:recipes/building_blocks/yellow_wool": {
     "criteria": {
       "has_white_wool": "2020-03-18 20:48:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
     },
     "done": true
   },
@@ -990,8 +1051,11 @@
     "criteria": {
       "minecraft:cold_ocean": "2020-03-18 20:00:08 +0000",
       "minecraft:forest": "2020-03-16 22:19:03 +0000",
+      "minecraft:mountains": "2020-03-21 15:24:37 +0000",
+      "minecraft:taiga": "2020-03-21 15:28:59 +0000",
       "minecraft:desert_hills": "2020-03-20 20:22:53 +0000",
       "minecraft:deep_cold_ocean": "2020-03-18 19:59:21 +0000",
+      "minecraft:taiga_hills": "2020-03-21 15:30:00 +0000",
       "minecraft:desert": "2020-03-18 21:08:22 +0000",
       "minecraft:deep_frozen_ocean": "2020-03-18 19:59:52 +0000",
       "minecraft:birch_forest": "2020-03-18 20:50:46 +0000",
@@ -999,6 +1063,7 @@
       "minecraft:beach": "2020-03-16 00:44:05 +0000",
       "minecraft:dark_forest": "2020-03-18 20:57:15 +0000",
       "minecraft:river": "2020-03-16 22:18:59 +0000",
+      "minecraft:wooded_mountains": "2020-03-21 15:24:30 +0000",
       "minecraft:swamp": "2020-03-18 20:55:06 +0000",
       "minecraft:savanna": "2020-03-20 20:21:34 +0000",
       "minecraft:plains": "2020-03-16 00:44:07 +0000"
@@ -1266,6 +1331,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-03-18 20:02:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-03-21 17:57:33 +0000"
     },
     "done": true
   },
@@ -1737,6 +1808,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2020-03-20 22:06:38 +0000"
@@ -1764,6 +1841,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2020-03-21 00:23:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-03-21 17:57:33 +0000"
     },
     "done": true
   },
@@ -1800,6 +1883,12 @@
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-20 21:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
     },
     "done": true
   },
@@ -1923,6 +2012,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_spruce_planks": "2020-03-21 16:08:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2020-03-18 20:56:14 +0000"
@@ -1977,6 +2072,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2020-03-21 18:15:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2020-03-20 22:19:45 +0000"
@@ -1992,6 +2093,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2020-03-20 21:06:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2020-03-21 18:06:21 +0000"
     },
     "done": true
   },
@@ -2070,6 +2177,12 @@
   "minecraft:recipes/misc/conduit": {
     "criteria": {
       "has_nautilus_shell": "2020-03-20 23:56:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
     },
     "done": true
   },
@@ -2157,6 +2270,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2020-03-21 18:20:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2020-03-18 20:48:33 +0000"
@@ -2178,6 +2297,12 @@
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2020-03-20 23:56:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2020-03-21 18:20:01 +0000"
     },
     "done": true
   },
@@ -2298,6 +2423,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2020-03-21 00:23:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-03-21 16:08:39 +0000"
     },
     "done": true
   },
