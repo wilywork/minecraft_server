@@ -1,97 +1,164 @@
-[00:04:27] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:04:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:04:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:04:27] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:04:27] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:04:27] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[00:04:27] [Server thread/INFO]: Loading properties
-[00:04:27] [Server thread/INFO]: Default game type: SURVIVAL
-[00:04:27] [Server thread/INFO]: Generating keypair
-[00:04:28] [Server thread/INFO]: Starting Minecraft server on *:41414
-[00:04:28] [Server thread/INFO]: Using epoll channel type
-[00:04:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:04:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:04:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:04:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:04:28] [Server thread/INFO]: Preparing level "world"
-[00:04:29] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[00:04:33] [Server thread/INFO]: Loaded 6 recipes
-[00:04:34] [Server thread/INFO]: Loaded 825 advancements
-[00:04:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:04:39] [Server thread/INFO]: Preparing spawn area: 0%
-[00:04:39] [Server thread/INFO]: Preparing spawn area: 0%
-[00:04:39] [Server thread/INFO]: Preparing spawn area: 0%
-[00:04:39] [Server thread/INFO]: Preparing spawn area: 0%
-[00:04:39] [Server thread/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server thread/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server thread/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server thread/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server thread/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server thread/INFO]: Preparing spawn area: 0%
-[00:05:11] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[00:05:12] [Server-Worker-1/INFO]: Preparing spawn area: 57%
-[00:05:12] [Server-Worker-1/INFO]: Preparing spawn area: 99%
-[00:05:12] [Server thread/INFO]: Time elapsed: 35523 ms
-[00:05:12] [Server thread/INFO]: Done (44.063s)! For help, type "help"
-[00:05:12] [Server thread/INFO]: Starting GS4 status listener
-[00:05:13] [Query Listener #1/INFO]: Query running on 0.0.0.0:41414
-[00:06:05] [Server thread/INFO]: WilyWorkw[/168.90.123.25:59162] logged in with entity id 302 at (34.5, 63.0, -256.5)
-[00:06:05] [Server thread/INFO]: WilyWorkw joined the game
+[00:00:42] [Server thread/INFO]: WilyWork[/168.90.121.94:52016] logged in with entity id 183259 at (36.5, 62.0, -257.5)
+[00:00:42] [Server thread/INFO]: WilyWork joined the game
+[00:00:53] [Server thread/INFO]: <brunyou> o xande
+[00:00:55] [Server thread/INFO]: <brunyou> q eu saiba
+[00:01:05] [Server thread/INFO]: <brunyou> tem que reiniciar o server pra aplicar
+[00:01:08] [Server thread/INFO]: <WilyWork> ta discord?
+[00:01:09] [Server thread/INFO]: <brunyou> as mudanças
+[00:01:15] [Server thread/INFO]: <brunyou> n
+[00:03:34] [Server thread/INFO]: <WilyWork> n acho a config
+[00:03:43] [Server thread/INFO]: <WilyWork> tens ideia?
+[00:03:53] [Server thread/INFO]: <brunyou> config do que
+[00:04:39] [Server thread/INFO]: <WilyWork> pra da spawn na cama
+[00:04:45] [Server thread/INFO]: <brunyou> eia
+[00:04:57] [Server thread/INFO]: <brunyou> pior q n sei
+[00:05:05] [Server thread/INFO]: <brunyou> será que vamo ter que botar um bukkit
+[00:05:13] [Server thread/INFO]: <brunyou> pra poder dar /sethome
+[00:05:22] [Server thread/INFO]: <brunyou> e proteger o terreno
+[00:05:25] [Server thread/INFO]: <brunyou> :o
+[00:05:30] [Server thread/INFO]: <WilyWork> vai ser o jeito acho
+[00:05:35] [Server thread/INFO]: <iTheagunFLEX> boa ideia na real
+[00:05:41] [Server thread/INFO]: <brunyou> a galera vai ter que dar /register e os caraio kkkkkkkkkkkk
+[00:05:42] [Server thread/INFO]: <iTheagunFLEX> fazer clan dai
+[00:05:44] [Server thread/INFO]: <brunyou> eia
+[00:05:57] [Server thread/INFO]: <brunyou> evento batalha de clã as 20:00 domingo
+[00:09:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[00:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8569ms or 171 ticks behind
+[00:09:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4016ms or 80 ticks behind
+[00:10:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2733ms or 54 ticks behind
+[00:11:22] [Server thread/INFO]: <brunyou> xande
+[00:11:24] [Server thread/INFO]: <iTheagunFLEX> WilyWork tem como dormir ai?
+[00:11:25] [Server thread/INFO]: <iTheagunFLEX> na humilda
+[00:12:02] [Server thread/INFO]: WilyWork drowned
+[00:20:10] [Server thread/INFO]: <WilyWork> n achei nenhuma config default para cama
+[00:20:19] [Server thread/INFO]: <brunyou> ih rapaz
+[00:20:27] [Server thread/INFO]: <brunyou> pior q eu não sei pq não da tlgd
+[00:20:51] [Server thread/INFO]: <WilyWork> achei bem fraco de config
+[00:22:28] [Server thread/INFO]: <WilyWork> tem o ponto de desova
+[00:22:35] [Server thread/INFO]: <brunyou> q
+[00:22:51] [Server thread/INFO]: <WilyWork> que seria a distancia q vc spawn depois q morre
+[00:23:13] [Server thread/INFO]: <WilyWork> posso botar ela mais curta
+[00:23:15] [Server thread/INFO]: <brunyou> o spawn point ta padrão pra todo mundo
+[00:23:23] [Server thread/INFO]: <brunyou> não tá pra spawnar na cama
+[00:23:35] [Server thread/INFO]: <WilyWork> nao
+[00:23:52] [Server thread/INFO]: brunyou has made the advancement [Diamonds!]
+[00:27:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2093ms or 41 ticks behind
+[00:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[00:30:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5084ms or 101 ticks behind
+[00:30:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[00:32:30] [Server thread/WARN]: brunyou moved too quickly! -7.7364325019772195,5.557228332534621,-3.2449159345937915
+[00:32:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[00:33:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[00:33:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6038ms or 120 ticks behind
+[00:33:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3352ms or 67 ticks behind
+[00:34:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3190ms or 63 ticks behind
+[00:34:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2371ms or 47 ticks behind
+[00:34:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[00:35:13] [Server thread/INFO]: WilyWork has made the advancement [Stone Age]
+[00:36:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
+[00:37:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11320ms or 226 ticks behind
+[00:37:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7710ms or 154 ticks behind
+[00:37:38] [Server thread/INFO]: * WilyWork jump
+[00:37:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5365ms or 107 ticks behind
+[00:37:55] [Server thread/INFO]: <WilyWork> como ver a loc
+[00:37:59] [Server thread/INFO]: <brunyou> __hacked_by//xande
+[00:38:01] [Server thread/INFO]: <brunyou> f3
+[00:38:11] [Server thread/INFO]: <brunyou> X/Y/Z
+[00:38:13] [Server thread/INFO]: WilyWork has made the advancement [Monster Hunter]
+[00:38:19] [Server thread/WARN]: iTheagunFLEX moved too quickly! -7.763803704851085,-1.8800391385729398,6.078694168747461
+[00:38:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3391ms or 67 ticks behind
+[00:38:40] [Server thread/INFO]: <WilyWork> pra onde tu tas
+[00:38:54] [Server thread/INFO]: <brunyou> to longe
+[00:39:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2098ms or 41 ticks behind
+[00:40:01] [Server thread/INFO]: <brunyou> tu pode dar tp xande
+[00:40:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[00:40:27] [Server thread/INFO]: <WilyWork> tem q logar no rcon dai
+[00:40:31] [Server thread/INFO]: <WilyWork> mas n botei senha
+[00:40:32] [Server thread/INFO]: <WilyWork> asdhasdhs
+[00:41:51] [Server thread/INFO]: <brunyou> to em 271 63 2679
+[00:41:59] [Server thread/INFO]: <brunyou> nossa localização é secreta
+[00:42:04] [Server thread/INFO]: <brunyou> não pode explanar
+[00:42:07] [Server thread/INFO]: <iTheagunFLEX> é >:(
+[00:42:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[00:42:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5052ms or 101 ticks behind
+[00:42:55] [Server thread/INFO]: <WilyWork> ta bem longe tailoko
+[00:43:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3315ms or 66 ticks behind
+[00:43:09] [Server thread/INFO]: <brunyou> pra evitar gente na porta da minha casa
+[00:43:12] [Server thread/INFO]: <brunyou> roubando itens
+[00:43:16] [Server thread/INFO]: <WilyWork> kkkkk
+[00:43:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3174ms or 63 ticks behind
+[00:45:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[00:45:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7037ms or 140 ticks behind
+[00:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3581ms or 71 ticks behind
+[00:46:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2998ms or 59 ticks behind
+[00:48:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2115ms or 42 ticks behind
+[00:48:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[00:48:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2102ms or 42 ticks behind
+[00:49:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[00:50:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7773ms or 155 ticks behind
+[00:50:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5601ms or 112 ticks behind
+[00:50:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3437ms or 68 ticks behind
+[00:52:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[00:52:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7029ms or 140 ticks behind
+[00:53:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7588ms or 151 ticks behind
+[00:53:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2244ms or 44 ticks behind
+[00:54:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2573ms or 51 ticks behind
+[00:54:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[00:55:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4858ms or 97 ticks behind
+[00:55:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2525ms or 50 ticks behind
+[00:56:21] [Server thread/INFO]: <WilyWork> fazendo oq de bom ai?
+[00:56:25] [Server thread/INFO]: <brunyou> hã
+[00:56:28] [Server thread/INFO]: <iTheagunFLEX> hã
+[00:56:30] [Server thread/INFO]: <brunyou> to fazendo a casa da gh
+[00:56:31] [Server thread/INFO]: <iTheagunFLEX> minerando né padrin
+[00:56:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[00:57:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5042ms or 100 ticks behind
+[00:57:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3314ms or 66 ticks behind
+[00:57:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2478ms or 49 ticks behind
+[00:58:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2587ms or 51 ticks behind
+[00:58:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[00:58:28] [Server thread/INFO]: WilyWork was shot by Skeleton
+[00:58:31] [Server thread/WARN]: WilyWork moved too quickly! -197.1586106100996,-3.0,-1005.8000000119209
+[00:59:03] [Server thread/INFO]: <WilyWork> caraca
+[00:59:15] [Server thread/INFO]: <WilyWork> quando vcs morrem nascem aqui no inicio?
+[00:59:20] [Server thread/INFO]: <iTheagunFLEX> s
+[00:59:31] [Server thread/INFO]: <WilyWork> puts
+[00:59:37] [Server thread/INFO]: <iTheagunFLEX> em 12 horas de gameplay morremos apenas uma vez
+[00:59:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2082ms or 41 ticks behind
+[01:00:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8353ms or 167 ticks behind
+[01:00:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7233ms or 144 ticks behind
+[01:00:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3049ms or 60 ticks behind
+[01:02:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[01:02:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9242ms or 184 ticks behind
+[01:03:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5081ms or 101 ticks behind
+[01:03:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3036ms or 60 ticks behind
+[01:05:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[01:05:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[01:05:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2996ms or 59 ticks behind
+[01:07:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[01:08:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3589ms or 71 ticks behind
+[01:08:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4298ms or 85 ticks behind
+[01:09:21] [Server thread/INFO]: WilyWork has made the advancement [Getting an Upgrade]
+[01:10:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2059ms or 41 ticks behind
+[01:11:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7521ms or 150 ticks behind
+[01:11:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7622ms or 152 ticks behind
+[01:12:22] [Server thread/INFO]: brunyou lost connection: Disconnected
+[01:12:22] [Server thread/INFO]: brunyou left the game
+[01:12:27] [Server thread/INFO]: <iTheagunFLEX> valeu xandao
+[01:12:32] [Server thread/INFO]: <WilyWork> vlw
+[01:12:35] [Server thread/INFO]: iTheagunFLEX lost connection: Disconnected
+[01:12:35] [Server thread/INFO]: iTheagunFLEX left the game
+[01:17:46] [Server thread/INFO]: WilyWork was slain by Zombie
+[01:42:13] [Server thread/INFO]: WilyWork lost connection: Disconnected
+[01:42:13] [Server thread/INFO]: WilyWork left the game
+[02:24:14] [Server thread/INFO]: Fragas[/181.221.139.252:57156] logged in with entity id 226328 at (-1207.3253349667998, 99.0, -296.93197988689127)
+[02:24:14] [Server thread/INFO]: Fragas joined the game
+[02:34:47] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=-1200, y=98, z=-286} fk{x=-1201, y=96, z=-288}
+[02:34:57] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=-1197, y=99, z=-288} fk{x=-1198, y=97, z=-290}
+[02:47:26] [Server thread/INFO]: Fragas lost connection: Disconnected
+[02:47:26] [Server thread/INFO]: Fragas left the game
+[04:32:10] [Server thread/INFO]: brunyou[/138.122.93.207:2198] logged in with entity id 229899 at (290.21242897075433, 66.0, 2678.5898740423263)
+[04:32:11] [Server thread/INFO]: brunyou joined the game
+[04:32:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
+[04:38:47] [Server thread/INFO]: brunyou lost connection: Disconnected
+[04:38:47] [Server thread/INFO]: brunyou left the game
