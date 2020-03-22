@@ -1,5 +1,4 @@
-allNamedHomes: {}
-unknownHomes:
+allNamedHomes:
   a0d73099-e49a-325f-92a0-d819489e7b61:
     '1':
       x: -97.1476456303777
@@ -163,3 +162,4 @@ d11ef156-681f-3337-9dcd-fb99e2719c1a:
     world: world
     yaw: 206.25415
     pitch: 21.968832
+unknownHomes: {}
