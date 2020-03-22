@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "a0d73099-e49a-325f-92a0-d819489e7b61",
+    "name": "WilyWork",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
