@@ -1,0 +1,314 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 3/22/20 9:40 PM
+Description: Watching Server
+
+java.lang.Error
+	at net.minecraft.server.v1_15_R1.World.isOutsideWorld(World.java:168)
+	at net.minecraft.server.v1_15_R1.World.getType(World.java:492)
+	at net.minecraft.server.v1_15_R1.VoxelShapes.a(SourceFile:259)
+	at net.minecraft.server.v1_15_R1.VoxelShapes.a(SourceFile:207)
+	at net.minecraft.server.v1_15_R1.Entity.a(Entity.java:816)
+	at net.minecraft.server.v1_15_R1.Entity.a(Entity.java:771)
+	at net.minecraft.server.v1_15_R1.Entity.e(Entity.java:731)
+	at net.minecraft.server.v1_15_R1.Entity.move(Entity.java:512)
+	at net.minecraft.server.v1_15_R1.EntityFish.e(EntityFish.java:93)
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2532)
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504)
+	at net.minecraft.server.v1_15_R1.EntityFish.movementTick(EntityFish.java:113)
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2341)
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273)
+	at net.minecraft.server.v1_15_R1.EntityFishSchool.tick(SourceFile:75)
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:607)
+	at net.minecraft.server.v1_15_R1.WorldServer$$Lambda$2456/1078555685.accept(Unknown Source)
+	at net.minecraft.server.v1_15_R1.World.a(World.java:669)
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:387)
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1023)
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:386)
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:940)
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:789)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at net.minecraft.server.v1_15_R1.World.isOutsideWorld(World.java:168)
+	at net.minecraft.server.v1_15_R1.World.getType(World.java:492)
+	at net.minecraft.server.v1_15_R1.VoxelShapes.a(SourceFile:259)
+	at net.minecraft.server.v1_15_R1.VoxelShapes.a(SourceFile:207)
+	at net.minecraft.server.v1_15_R1.Entity.a(Entity.java:816)
+	at net.minecraft.server.v1_15_R1.Entity.a(Entity.java:771)
+	at net.minecraft.server.v1_15_R1.Entity.e(Entity.java:731)
+	at net.minecraft.server.v1_15_R1.Entity.move(Entity.java:512)
+	at net.minecraft.server.v1_15_R1.EntityFish.e(EntityFish.java:93)
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2532)
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504)
+	at net.minecraft.server.v1_15_R1.EntityFish.movementTick(EntityFish.java:113)
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2341)
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273)
+	at net.minecraft.server.v1_15_R1.EntityFishSchool.tick(SourceFile:75)
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:607)
+	at net.minecraft.server.v1_15_R1.WorldServer$$Lambda$2456/1078555685.accept(Unknown Source)
+	at net.minecraft.server.v1_15_R1.World.a(World.java:669)
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:387)
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1023)
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:386)
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:940)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Epoll Server IO #3" Id=43 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #2" Id=40 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #1" Id=39 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Watchdog" Id=35 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at net.minecraft.server.v1_15_R1.ThreadWatchdog.run(SourceFile:45)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"RCON Listener #2" Id=34 RUNNABLE
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:560)
+	at java.net.ServerSocket.accept(ServerSocket.java:528)
+	at net.minecraft.server.v1_15_R1.RemoteControlListener.run(SourceFile:58)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Query Listener #1" Id=33 RUNNABLE
+	at java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	-  locked java.net.PlainDatagramSocketImpl@496788f2
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+	-  locked java.net.PlainDatagramSocketImpl@496788f2
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812)
+	-  locked java.net.DatagramPacket@47a07fae
+	-  locked java.net.DatagramSocket@5588f6d0
+	at net.minecraft.server.v1_15_R1.RemoteStatusListener.run(SourceFile:260)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"poi IO worker" Id=31 WAITING on java.lang.String@439fe382
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@439fe382
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+	at net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+	at net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"chunk IO worker" Id=30 WAITING on java.lang.String@439fe382
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@439fe382
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+	at net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+	at net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"poi IO worker" Id=29 WAITING on java.lang.String@439fe382
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@439fe382
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+	at net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+	at net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"chunk IO worker" Id=28 WAITING on java.lang.String@439fe382
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@439fe382
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+	at net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+	at net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"poi IO worker" Id=27 WAITING on java.lang.String@439fe382
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@439fe382
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+	at net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+	at net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"chunk IO worker" Id=26 WAITING on java.lang.String@439fe382
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@439fe382
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124)
+	at net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134)
+	at net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=25 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"ObjectCleanerThread" Id=24 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@69d7595
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@69d7595
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=22 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	-  locked java.io.BufferedInputStream@73c85dac
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+	-  locked org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream@37511174
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+	-  locked org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream@37511174
+	...
+
+
+"TerminalConsoleWriter" Id=23 RUNNABLE
+	at java.lang.AbstractStringBuilder.<init>(AbstractStringBuilder.java:68)
+	at java.lang.StringBuilder.<init>(StringBuilder.java:89)
+	at org.fusesource.jansi.Ansi.<init>(Ansi.java:290)
+	at org.fusesource.jansi.Ansi.ansi(Ansi.java:180)
+	at org.bukkit.craftbukkit.v1_15_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:38)
+
+
+"DestroyJavaVM" Id=21 RUNNABLE
+
+
+"Server thread" Id=14 RUNNABLE
+	at net.minecraft.server.v1_15_R1.World.isOutsideWorld(World.java:168)
+	at net.minecraft.server.v1_15_R1.World.getType(World.java:492)
+	at net.minecraft.server.v1_15_R1.VoxelShapes.a(SourceFile:259)
+	at net.minecraft.server.v1_15_R1.VoxelShapes.a(SourceFile:207)
+	at net.minecraft.server.v1_15_R1.Entity.a(Entity.java:816)
+	at net.minecraft.server.v1_15_R1.Entity.a(Entity.java:771)
+	at net.minecraft.server.v1_15_R1.Entity.e(Entity.java:731)
+	at net.minecraft.server.v1_15_R1.Entity.move(Entity.java:512)
+	...
+
+
+"Server Infinisleeper" Id=20 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.v1_15_R1.DedicatedServer$1.run(DedicatedServer.java:69)
+
+
+"NonBlockingInputStreamThread" Id=18 WAITING on org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream@37511174 owned by "Server console handler" Id=22
+	at java.lang.Object.wait(Native Method)
+	-  waiting on org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream@37511174
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"process reaper" Id=17 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@bee67ef
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@bee67ef
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"Snooper Timer" Id=13 WAITING on java.util.TaskQueue@66b28ada
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@66b28ada
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@57269e9d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@57269e9d
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@6843efbc
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@6843efbc
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at net.minecraft.server.v1_15_R1.ThreadWatchdog.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Linux (amd64) version 4.15.0-1058-gcp
+	Java Version: 1.8.0_242, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 360421424 bytes (343 MB) / 741343232 bytes (707 MB) up to 1409286144 bytes (1344 MB)
+	CPUs: 2
+	JVM Flags: 1 total; -Xmx1512M
+	CraftBukkit Information: 
+   Running: CraftBukkit version git-Bukkit-8160e29 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT) false
+   Plugins: { ClearLag v3.1.6 me.minebuilders.clearlag.Clearlag [bob7l], SetHomes v1.2.5* com.samleighton.xquiset.sethomes.SetHomes [Xquiset], JustTPA v1.0.0* pl.tagon.justtpa.Main [Faxu],}
+   Warnings: DEFAULT
+   Reload Count: 0
+   Threads: { WAITING poi IO worker: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124), net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134), net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source), java.lang.Thread.run(Thread.java:748)], WAITING poi IO worker: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124), net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134), net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source), java.lang.Thread.run(Thread.java:748)], TIMED_WAITING ObjectCleanerThread: [java.lang.Object.wait(Native Method), java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144), io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54), io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30), java.lang.Thread.run(Thread.java:748)], RUNNABLE Netty Epoll Server IO #1: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:114), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884), java.lang.Thread.run(Thread.java:748)], RUNNABLE Signal Dispatcher: [], RUNNABLE Server Watchdog: [java.lang.Thread.dumpThreads(Native Method), java.lang.Thread.getAllStackTraces(Thread.java:1610), org.bukkit.craftbukkit.v1_15_R1.CraftCrashReport.call(CraftCrashReport.java:33), net.minecraft.server.v1_15_R1.CrashReportSystemDetails.a(SourceFile:79), net.minecraft.server.v1_15_R1.CrashReport.i(CrashReport.java:71), net.minecraft.server.v1_15_R1.CrashReport.<init>(CrashReport.java:35), net.minecraft.server.v1_15_R1.ThreadWatchdog.run(SourceFile:59), java.lang.Thread.run(Thread.java:748)], WAITING chunk IO worker: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124), net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134), net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source), java.lang.Thread.run(Thread.java:748)], TIMED_WAITING Server Infinisleeper: [java.lang.Thread.sleep(Native Method), net.minecraft.server.v1_15_R1.DedicatedServer$1.run(DedicatedServer.java:69)], RUNNABLE Netty Epoll Server IO #2: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:114), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884), java.lang.Thread.run(Thread.java:748)], RUNNABLE Query Listener #1: [java.net.PlainDatagramSocketImpl.receive0(Native Method), java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143), java.net.DatagramSocket.receive(DatagramSocket.java:812), net.minecraft.server.v1_15_R1.RemoteStatusListener.run(SourceFile:260), java.lang.Thread.run(Thread.java:748)], RUNNABLE Netty Epoll Server IO #0: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:114), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884), java.lang.Thread.run(Thread.java:748)], WAITING NonBlockingInputStreamThread: [java.lang.Object.wait(Native Method), org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278), java.lang.Thread.run(Thread.java:748)], WAITING Finalizer: [java.lang.Object.wait(Native Method), java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144), java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165), java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)], WAITING chunk IO worker: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124), net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134), net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source), java.lang.Thread.run(Thread.java:748)], WAITING Reference Handler: [java.lang.Object.wait(Native Method), java.lang.Object.wait(Object.java:502), java.lang.ref.Reference.tryHandlePending(Reference.java:191), java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)], RUNNABLE Netty Epoll Server IO #3: [io.netty.channel.epoll.Native.epollWait0(Native Method), io.netty.channel.epoll.Native.epollWait(Native.java:114), io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239), io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256), io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884), java.lang.Thread.run(Thread.java:748)], WAITING TerminalConsoleWriter: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039), java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442), com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77), org.bukkit.craftbukkit.v1_15_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:31)], WAITING chunk IO worker: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124), net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134), net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source), java.lang.Thread.run(Thread.java:748)], WAITING poi IO worker: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.park(LockSupport.java:175), net.minecraft.server.v1_15_R1.IOWorker.c(SourceFile:124), net.minecraft.server.v1_15_R1.IOWorker.d(SourceFile:134), net.minecraft.server.v1_15_R1.IOWorker$$Lambda$2248/332648723.run(Unknown Source), java.lang.Thread.run(Thread.java:748)], RUNNABLE Server console handler: [java.io.FileInputStream.readBytes(Native Method), java.io.FileInputStream.read(FileInputStream.java:255), java.io.BufferedInputStream.fill(BufferedInputStream.java:246), java.io.BufferedInputStream.read(BufferedInputStream.java:265), org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169), org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137), org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246), org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261), org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145), org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349), net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:95)], RUNNABLE DestroyJavaVM: [], RUNNABLE RCON Listener #2: [java.net.PlainSocketImpl.socketAccept(Native Method), java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409), java.net.ServerSocket.implAccept(ServerSocket.java:560), java.net.ServerSocket.accept(ServerSocket.java:528), net.minecraft.server.v1_15_R1.RemoteControlListener.run(SourceFile:58), java.lang.Thread.run(Thread.java:748)], WAITING Snooper Timer: [java.lang.Object.wait(Native Method), java.lang.Object.wait(Object.java:502), java.util.TimerThread.mainLoop(Timer.java:526), java.util.TimerThread.run(Timer.java:505)], TIMED_WAITING process reaper: [sun.misc.Unsafe.park(Native Method), java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215), java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460), java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362), java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941), java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073), java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624), java.lang.Thread.run(Thread.java:748)], RUNNABLE Server thread: [java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174), java.util.Iterator.forEachRemaining(Iterator.java:116), java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801), java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482), java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472), java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150), java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173), java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234), java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485), net.minecraft.server.v1_15_R1.PathfinderGoalSelector.doTick(SourceFile:55), net.minecraft.server.v1_15_R1.EntityInsentient.doTick(EntityInsentient.java:649), net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2506), net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504), net.minecraft.server.v1_15_R1.EntityAgeable.movementTick(EntityAgeable.java:145), net.minecraft.server.v1_15_R1.EntityAnimal.movementTick(EntityAnimal.java:28), net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2341), net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273), net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:607), net.minecraft.server.v1_15_R1.WorldServer$$Lambda$2456/1078555685.accept(Unknown Source), net.minecraft.server.v1_15_R1.World.a(World.java:669), net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:387), net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1023), net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:386), net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:940), net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:789), java.lang.Thread.run(Thread.java:748)],}
+   Recent tasks from 1059-1089{}
+   Force Loaded Chunks: { world: {}, world_nether: {}, world_the_end: {},}
+	Player Count: 2 / 50; [EntityPlayer['nicolao'/154, l='world', x=245.38, y=14.00, z=3030.30](nicolao at 245.38385432807544,14.0,3030.300000011921), EntityPlayer['WilyWork'/193, l='world', x=-104.51, y=63.00, z=-84.96](WilyWork at -104.50731388322399,63.0,-84.95561183719227)]
+	Data Packs: vanilla, file/bukkit
+	Is Modded: Definitely; Server brand changed to 'CraftBukkit'
+	Type: Dedicated Server (map_server.txt)
