@@ -24,16 +24,16 @@ settings:
   shutdown-message: Server closed
   minimum-api: none
 spawn-limits:
-  monsters: 70
+  monsters: 30
   animals: 10
-  water-animals: 15
-  ambient: 15
+  water-animals: 10
+  ambient: 10
 chunk-gc:
-  period-in-ticks: 600
+  period-in-ticks: 300
 ticks-per:
   water-spawns: 1
   ambient-spawns: 1
-  animal-spawns: 400
+  animal-spawns: 150
   monster-spawns: 1
   autosave: 6000
 aliases: now-in-commands.yml
