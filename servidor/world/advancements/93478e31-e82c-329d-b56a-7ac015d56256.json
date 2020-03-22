@@ -89,6 +89,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2020-03-21 19:56:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2020-03-21 18:16:05 +0000"
@@ -289,6 +295,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "baked_potato": "2020-03-21 21:43:11 +0000",
       "apple": "2020-03-21 15:44:56 +0000",
       "bread": "2020-03-21 17:28:57 +0000"
     },
@@ -575,6 +582,12 @@
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2020-03-21 18:12:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/composter": {
+    "criteria": {
+      "has_wood_slab": "2020-03-21 21:01:17 +0000"
     },
     "done": true
   },
@@ -915,6 +928,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2020-03-21 19:56:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-03-21 15:31:18 +0000"
@@ -1059,15 +1078,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/birch_fence": {
-    "criteria": {
-      "has_planks": "2020-03-21 18:16:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-03-21 18:12:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2020-03-21 18:16:05 +0000"
     },
     "done": true
   },

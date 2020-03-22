@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2020-03-21 19:51:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2020-03-18 20:33:12 +0000"
@@ -206,6 +212,12 @@
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2020-03-18 20:31:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2020-03-21 20:15:48 +0000"
     },
     "done": true
   },
@@ -577,9 +589,12 @@
       "minecraft:pillager": "2020-03-20 20:22:56 +0000",
       "minecraft:blaze": "2020-03-21 18:20:54 +0000",
       "minecraft:skeleton": "2020-03-18 20:33:25 +0000",
+      "minecraft:magma_cube": "2020-03-21 19:51:06 +0000",
       "minecraft:spider": "2020-03-18 20:51:12 +0000",
       "minecraft:creeper": "2020-03-20 21:19:39 +0000",
       "minecraft:slime": "2020-03-18 20:55:47 +0000",
+      "minecraft:witch": "2020-03-21 20:29:46 +0000",
+      "minecraft:wither_skeleton": "2020-03-21 19:54:49 +0000",
       "minecraft:husk": "2020-03-18 21:10:59 +0000",
       "minecraft:enderman": "2020-03-20 19:49:06 +0000",
       "minecraft:stray": "2020-03-21 17:44:45 +0000",
@@ -2640,6 +2655,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2020-03-18 20:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2020-03-21 19:15:27 +0000"
     },
     "done": true
   },
