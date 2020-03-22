@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2020-03-22 02:27:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2020-03-18 20:00:56 +0000"
@@ -570,6 +576,12 @@
   "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2020-03-20 21:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2020-03-22 02:27:42 +0000"
     },
     "done": true
   },
@@ -1457,6 +1469,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2020-03-21 00:23:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2020-03-22 02:27:42 +0000"
     },
     "done": true
   },

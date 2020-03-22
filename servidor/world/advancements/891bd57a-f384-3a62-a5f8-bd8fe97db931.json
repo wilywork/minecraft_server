@@ -706,6 +706,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2020-03-22 02:31:01 +0000",
       "minecraft:skeleton": "2020-03-21 23:10:36 +0000",
       "minecraft:ghast": "2020-03-21 21:42:01 +0000",
       "minecraft:spider": "2020-03-21 23:42:46 +0000",
@@ -1377,6 +1378,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2020-03-21 23:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2020-03-22 02:30:57 +0000"
     },
     "done": true
   },
