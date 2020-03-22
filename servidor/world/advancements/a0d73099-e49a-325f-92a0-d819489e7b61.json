@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-03-22 19:13:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2020-03-21 15:38:47 +0000"
@@ -227,6 +233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2020-03-22 19:16:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-03-21 06:05:34 +0000"
@@ -248,6 +260,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "apple": "2020-03-21 00:43:24 +0000",
+      "rabbit": "2020-03-22 19:16:29 +0000",
       "salmon": "2020-03-21 00:52:39 +0000"
     },
     "done": false
@@ -513,6 +526,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2020-03-21 16:34:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2020-03-22 19:16:23 +0000"
     },
     "done": true
   },
@@ -866,6 +885,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2020-03-22 19:18:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2020-03-21 15:38:47 +0000"
@@ -1082,6 +1107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2020-03-22 19:16:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2020-03-21 00:24:54 +0000"
@@ -1146,11 +1177,14 @@
     "criteria": {
       "minecraft:cold_ocean": "2020-03-21 00:43:57 +0000",
       "minecraft:forest": "2020-03-21 00:24:20 +0000",
+      "minecraft:desert_hills": "2020-03-22 18:58:20 +0000",
       "minecraft:deep_cold_ocean": "2020-03-21 00:39:49 +0000",
+      "minecraft:desert": "2020-03-22 18:55:56 +0000",
       "minecraft:deep_frozen_ocean": "2020-03-21 00:48:17 +0000",
       "minecraft:birch_forest": "2020-03-21 00:56:53 +0000",
       "minecraft:beach": "2020-03-21 00:01:10 +0000",
       "minecraft:river": "2020-03-21 00:24:18 +0000",
+      "minecraft:lukewarm_ocean": "2020-03-22 19:14:43 +0000",
       "minecraft:plains": "2020-03-21 00:00:42 +0000"
     },
     "done": false

@@ -711,6 +711,7 @@
       "minecraft:ghast": "2020-03-21 21:42:01 +0000",
       "minecraft:spider": "2020-03-21 23:42:46 +0000",
       "minecraft:creeper": "2020-03-21 23:41:10 +0000",
+      "minecraft:phantom": "2020-03-22 19:07:17 +0000",
       "minecraft:husk": "2020-03-22 00:09:11 +0000",
       "minecraft:enderman": "2020-03-21 23:12:20 +0000",
       "minecraft:zombie": "2020-03-21 23:10:32 +0000",
@@ -1354,6 +1355,12 @@
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2020-03-22 00:22:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2020-03-22 19:08:36 +0000"
     },
     "done": true
   },
