@@ -1,0 +1,1 @@
+start /wait java -Xmx2548M -jar craftbukkit-1.15.2.jar -o false && exit

@@ -15,7 +15,7 @@
 max-homes: 5
 max-homes-msg: §4You have reached the maximum amount of saved homes!
 tp-delay: 5
-tp-cooldown: 0
+tp-cooldown: 3
 tp-cancelOnMove: false
 tp-cancelOnMove-msg: §4Movement detected! Teleporting has been cancelled!
 tp-cooldown-msg: §4You must wait another %s second(s) before teleporting!
