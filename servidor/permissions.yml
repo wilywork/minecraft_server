@@ -1,7 +1,7 @@
-groups:
-  Default:
+server.basics:
+    description: Basic permissions for My Cool Server.
     default: true
-    permissions:
+    children:
     - homes.home
     - homes.sethome
     - homes.delhome
@@ -9,17 +9,3 @@ groups:
     - justtpa.tpahere
     - justtpa.tpaccept
     - justtpa.tpadeny
-    inheritance: []
-    info: []
-  Member:
-    default: false
-    build: false
-    permissions: []
-    inheritance: Default
-    info: []
-  Admin:
-    default: false
-    build: false
-    permissions: []
-    inheritance: Default
-    info: []

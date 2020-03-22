@@ -19,28 +19,3 @@ tp-cooldown: 0
 tp-cancelOnMove: false
 tp-cancelOnMove-msg: §4Movement detected! Teleporting has been cancelled!
 tp-cooldown-msg: §4You must wait another %s second(s) before teleporting!
-groups:
-  Default:
-    default: true
-    permissions:
-    - homes.home
-    - homes.sethome
-    - homes.delhome
-    - justtpa.tpa
-    - justtpa.tpahere
-    - justtpa.tpaccept
-    - justtpa.tpadeny
-    inheritance: []
-    info: []
-  Member:
-    default: false
-    build: false
-    permissions: []
-    inheritance: Default
-    info: []
-  Admin:
-    default: false
-    build: false
-    permissions: []
-    inheritance: Default
-    info: []
